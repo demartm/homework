@@ -163,7 +163,18 @@ int main() {
 
 	}
 	else {
-		printf("error initializing");
+		printf("error initializing");if (el1) {
+	free(el1);
+}
+if (el2) {
+	free(el2);
+}
+if (el3) {
+	free(el3);
+}
+if (el4) {
+	free(el4);
+}
 	}
 	return 0;
 }
